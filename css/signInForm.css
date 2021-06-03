@@ -1,0 +1,80 @@
+.popup-login-wrapper,
+.popup-register-wrapper {
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-box {
+    height: 45px;
+    border: 1px solid #B83D3D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #B83D3D;
+    border-radius: 5px;
+}
+
+.login-form, .reg-form {
+    width: 420px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    padding: 15px 30px;
+}
+
+.close-form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-form h2 {
+    margin-left: auto;
+}
+
+.close-form img {
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.login-form .close-form img,
+.reg-form .close-form img {
+    width: 20px;
+    height: 20px;
+}
+
+.login-form.active {
+    display: flex;
+}
+
+form input {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    border: 2px solid #ccc;
+}
+
+form button {
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #3D84B8;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}

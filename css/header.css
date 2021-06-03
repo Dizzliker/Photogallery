@@ -1,0 +1,75 @@
+header {
+    width: 100%;
+    background-color: #3D84B8;
+    color: #fff;
+    min-height: 60px;
+    padding-top: 0.6rem;
+}
+
+header .logo {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    color: #fff;
+}
+
+header .header__content .sign-in, .logout-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s ease;
+    padding: 5px;
+}
+
+header .header__content .sign-in:hover,
+.logout-box:hover {
+    background-color: #3677A7;
+    transition: .2s ease;
+}
+
+header .sign-in img, .logout-box img {
+    width: 35px;
+}
+
+header .input-search {
+    min-width: 350px;
+    font-size: 14px;
+    margin-right: 10px;  
+    text-align: center;
+    border: none;
+    outline: #ccc;
+    height: 25px;
+    border-radius: 5px;  
+}
+
+header .header__content form {
+    display: flex;
+    align-items: center;
+
+}
+
+header .header__content form button {
+    background-color: #3D84B8;
+    border: none;
+}
+
+header .header__content form button img {
+    width: 25px;
+}
+
+header .header__content nav ul {
+    list-style-type: none;
+}
+
+header .header__content {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-search::-webkit-input-placeholder { color: #e6e6e6; }

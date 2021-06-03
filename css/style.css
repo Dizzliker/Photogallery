@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    transition: .2s ease;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.app {
+    display: flex;
+    max-width: 1170px;
+    margin: 50px auto 0 auto; 
+}
+
+.reg-form .info-box.active {
+    display: flex;
+}
+
+aside ul {
+    list-style-type: none;
+}
+
+aside ul li a {
+    color: black;
+}
+
+aside .aside__header {
+    margin-bottom: 20px;
+}
+
+aside .aside__menu li {
+    margin-bottom: 15px;
+}
+
+aside .aside__menu li a:hover {
+    color: #3D84B8;
+    transition: .2s ease;
+}
+
+/* Секция с карточками */
+
+.cards {
+    margin-left: 50px;
+}
+
+.cards .card {
+    display: inline-block;
+    background-color: #FAF3F3;
+    width: 300px;
+    border-radius: 5px;
+    margin: 0 25px 25px 0;
+}
+
+.cards .card img {
+    width: 300px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.cards .card .card__title {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 20px;
+    padding: 5px;
+    color: #3D84B8;
+    font-weight: 500;
+}
+
+.card .card__category {
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    padding: 5px;
+    color: #000;
+}
